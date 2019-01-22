@@ -206,3 +206,6 @@ nav.navbar.navbar-expand-sm.navbar-light.fixed-top {
     flex-direction: column;
 }
 }
+.commentfacebook{
+	display: flex;
+}
