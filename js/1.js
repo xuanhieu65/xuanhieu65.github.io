@@ -8,5 +8,9 @@
  		$('html').animate({scrollTop: $('#khoisanpham').offset().top},700);
  		return false;
  	});
+ 	$('.cm').click(function(event) {
+ 		$('html').animate({scrollTop: $('.khoicomment').offset().top},700);
+ 		return false;
+ 	});
 })  
  
