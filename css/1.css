@@ -1,5 +1,27 @@
 *{margin: 0; padding: 0;}
 
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+    position: relative;
+}
+
+.khoitt1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #e4555b;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
 li.nav-item {
     margin: 0 17px;
 }
@@ -50,4 +72,4 @@ nav.navbar.navbar-expand-sm.navbar-light.fixed-top {
 .container.justify-content-between {
     flex-direction: column;
 }
-}
+}s
